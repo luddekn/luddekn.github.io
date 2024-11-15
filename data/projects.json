@@ -1,0 +1,22 @@
+{
+	"projects": [
+		{
+			"title": "Lock And Key",
+			"description": "Lock&Key is a self-hosted, self-managed, open-source password manager. It provides everything you need to store and manage your accounts securely!",
+			"url": "https://github.com/luddekn/lock-and-key",
+			"author": "Luddekn",
+			"languages": "Python, MySQL",
+			"underEmbed": "Lock & Key is a password manager I created as my final exam project for university. It's created using Python and MySQL.",
+			"readmore": "Read more by clicking the embed under!"
+		},
+		{
+			"title": "LEnum",
+			"description": "Automated Linux enumeration!",
+			"url": "https://github.com/luddekn/lenum",
+			"author": "Luddekn",
+			"languages": "Shell Scripting",
+			"underEmbed": "LEnum is a interactive Linux enumerator I created for fun during the summer of 2024. It's not doing anything insane, it just provides the user with an interactive terminal to enumerate a Linux machine. It's created using Shell scripting.",
+			"readmore": "Read more by clicking the embed under!"
+		}
+	]
+}

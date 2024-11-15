@@ -1,0 +1,28 @@
+{
+	"certifications": [
+		{
+			"title": "Practical Junior Penetration Tester (PJPT)",
+			"issuer": "TCM Academy",
+			"date": "May 5, 2024",
+			"link": "https://certified.tcm-sec.com/fba51118-8a0a-4b23-9595-23dc33ad9a4e",
+			"verifySite": "certified.tcm-sec.com",
+			"image": "./images/pjpt-badge.png"
+		},
+		{
+			"title": "Practical Junior Web Tester (PJWT)",
+			"issuer": "TCM Academy",
+			"date": "March 5, 2024",
+			"link": "https://certified.tcm-sec.com/874f40b1-a392-43ec-a0c4-fdbdafd37602",
+			"verifySite": "certified.tcm-sec.com",
+			"image": "./images/pjwt-badge.png"
+		},
+		{
+			"title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
+			"issuer": "Microsoft",
+			"date": "March 30, 2023",
+			"link": "https://www.credly.com/badges/56d4a914-a9cf-43a9-8710-a185805a15d6",
+			"verifySite": "credly.com",
+			"image": "./images/azure-badge.png"
+		}
+	]
+}

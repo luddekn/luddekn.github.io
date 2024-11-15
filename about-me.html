@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en" id="root" class="light">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>LK | About Me</title>
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+		<link href="./dist/output.css" rel="stylesheet" />
+		<script src="./JS/fetchTheme.js"></script>
+	</head>
+	<body class="transition-background duration-200 ease-linear bg-gray-100 text-gray-800 font-sans min-h-screen flex flex-col dark:bg-gray-900 dark:text-white">
+		<!-- Header Section -->
+		<section id="header" class="transition-colors duration-200 ease-linear bg-white shadow-md p-6 dark:bg-gray-800">
+			<div class="max-w-4xl mx-auto flex justify-between items-center">
+				<div id="header-left-side">
+					<h2 class="text-3xl font-bold">Ludvik Kristoffersen</h2>
+					<p>Back-End Development Student</p>
+				</div>
+				<div id="header-right-side" class="flex items-center space-x-6">
+					<div id="burger-menu" class="burger-menu text-3xl cursor-pointer md:hidden">☰</div>
+					<ul id="header-links" class="hidden md:flex space-x-6 text-lg">
+						<li>
+							<a href="./index.html" class="hover:text-blue-500 dark:hover:text-red-500 hover:transition-colors hover:duration-200 hover:ease-linear">Posts</a>
+						</li>
+						<li>
+							<a href="./about-me.html" class="text-blue-500 dark:text-red-500 hover:transition-colors hover:duration-200 hover:ease-linear">About Me</a>
+						</li>
+						<li>
+							<a href="./projects.html" class="hover:text-blue-500 dark:hover:text-red-500 hover:transition-colors hover:duration-200 hover:ease-linear">Projects</a>
+						</li>
+						<li>
+							<a href="./certificates.html" class="hover:text-blue-500 dark:hover:text-red-500 hover:transition-colors hover:duration-200 hover:ease-linear">Certificates</a>
+						</li>
+					</ul>
+					<button id="change-theme" class="flex items-center justify-center text-white p-2 bg-black w-8 h-8 rounded-full dark:bg-gray-200 dark:text-black">
+						<span id="theme-icon" class="material-icons">nightlight_round</span>
+					</button>
+				</div>
+			</div>
+		</section>
+
+		<!-- Content Section -->
+		<section id="content" class="max-w-4xl mx-auto mt-10 p-4 flex-grow">
+			<div class="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-10">
+				<section id="main-content" class="transition-background duration-200 ease-linear md:w-full bg-white shadow-md pt-6 pl-6 pr-6 pb-0 rounded-lg dark:bg-gray-800">
+					<h1 class="text-blue-500 font-bold text-3xl mb-5 dark:text-red-500">About Me</h1>
+					<div class="mb-8 leading-snug">
+						<p>Hi there!</p>
+						<br />
+						<p>
+							I'm currently pursuing a career in IT and cybersecurity, having completed two years at Noroff University in the "Network & IT Security" program. When I started, I had little to no
+							experience in IT and cybersecurity—just basic computer knowledge like most people. So, saying I've learned a lot is an understatement. After these two years, I can confidently say I have
+							a solid foundation in various IT and cybersecurity concepts.
+						</p>
+						<br />
+						<p>I’m also starting my first year in Noroff's "Back-End Development" program on October 15th this year (2024), and I’m excited to expand my skills and knowledge in that field!</p>
+						<br />
+						<p>In my free time, I enjoy playing games, spending time with my family, learning guitar, and listening to music. 😄</p>
+					</div>
+				</section>
+
+				<!-- Sidebar Content: Recent Posts -->
+				<aside id="side-content" class="md:w-96">
+					<div class="transition-colors duration-200 ease-linear bg-white shadow-md rounded-lg p-4 dark:bg-gray-800">
+						<h3 class="text-lg font-semibold mb-4">Recent Posts</h3>
+						<ul id="recent-post-container" class="space-y-2 text-blue-500 dark:text-red-500"></ul>
+					</div>
+				</aside>
+			</div>
+		</section>
+
+		<!-- Footer Section -->
+		<footer id="footer" class="transition-colors duration-200 ease-linear bg-white py-4 mt-8 dark:bg-gray-800">
+			<div class="max-w-4xl mx-auto text-center">
+				<p id="year"></p>
+			</div>
+		</footer>
+		<script src="./JS/currentYear.js"></script>
+		<script src="./JS/burgerMenu.js"></script>
+		<script src="./JS/themeChange.js"></script>
+		<script src="./JS/fetchRecent.js"></script>
+	</body>
+</html>
