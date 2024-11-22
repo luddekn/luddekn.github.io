@@ -8,11 +8,11 @@
 		"summary": "So, what is a hash? Well, a hash is essentially a one-way conversion of any data to a fixed-length value that can’t be decrypted to its original value, hence the meaning of one-way."
 	},
 	{
-		"title": "Practical Junior Web Tester (PJWT) Certification Review",
+		"title": "Practical Web Pentest Associate (PWPA) Certification Review",
 		"author": "Ludvik",
 		"date": "2024-04-9",
 		"displayDate": "April 9, 2024",
 		"category": "TCM",
-		"summary": "In early March this year (2024), I managed to pass the Practical Junior Web Tester (PJWT) certification from TCM Security. Leading up to taking this exam, I had a lot of questions surrounding the exam itself and web application penetration testing, and the goal of this little review is to answer a few of those questions I had before taking it, after passing, to potentially guide and help future exam takers on a good path."
+		"summary": "In early March this year (2024), I managed to pass the Practical Web Pentest Associate (PWPA) certification from TCM Security. Leading up to taking this exam, I had a lot of questions surrounding the exam itself and web application penetration testing, and the goal of this little review is to answer a few of those questions I had before taking it, after passing, to potentially guide and help future exam takers on a good path."
 	}
 ]

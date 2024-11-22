@@ -9,12 +9,12 @@
 			"image": "./images/pjpt-badge.png"
 		},
 		{
-			"title": "Practical Junior Web Tester (PJWT)",
+			"title": "Practical Web Pentest Associate (PWPA)",
 			"issuer": "TCM Academy",
 			"date": "March 5, 2024",
 			"link": "https://certified.tcm-sec.com/874f40b1-a392-43ec-a0c4-fdbdafd37602",
 			"verifySite": "certified.tcm-sec.com",
-			"image": "./images/pjwt-badge.png"
+			"image": "./images/pwpa-badge.png"
 		},
 		{
 			"title": "Microsoft Certified: Azure Fundamentals (AZ-900)",
